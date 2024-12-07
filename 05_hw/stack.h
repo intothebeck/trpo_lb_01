@@ -16,23 +16,14 @@ extern "C" {
 #endif
 
 Node* createNode(int data);
-
 void initStack(Stack* stack);
-
-void destroyStack(Stack *stack);
-
-void push(Stack* stack, int data);
-
-void pop(Stack* stack);
-
+void destroyStack(Stack* stack);
+bool push(Stack* stack, int data);
+bool pop(Stack* stack, int* data);
 Node* searchByValue(Stack* stack, int value);
-
 Node* searchByIndex(Stack* stack, int index);
-
 Node* getTop(Stack* stack);
-
 void traverseStack(Stack* stack);
-
 bool isEmpty(Stack* stack);
 
 #ifdef __cplusplus
