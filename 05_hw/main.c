@@ -13,7 +13,7 @@ int main() {
     printf("After pushing elements:\n");
     traverseStack(&stack);
 
-    pop(&stack,NULL);
+    pop(&stack, NULL);
 
     printf("After popping an element:\n");
     traverseStack(&stack);
