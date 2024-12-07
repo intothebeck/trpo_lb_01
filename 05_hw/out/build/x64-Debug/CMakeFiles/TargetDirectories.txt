@@ -1,0 +1,4 @@
+C:/trpo_lb_01/trpo_lb_01/05_hw/out/build/x64-Debug/CMakeFiles/stack.dir
+C:/trpo_lb_01/trpo_lb_01/05_hw/out/build/x64-Debug/CMakeFiles/main.dir
+C:/trpo_lb_01/trpo_lb_01/05_hw/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/trpo_lb_01/trpo_lb_01/05_hw/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
