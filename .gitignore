@@ -1,0 +1,6 @@
+# Coverage and build files
+*.gcda
+*.gcno
+*.exe
+*.log
+out/build/

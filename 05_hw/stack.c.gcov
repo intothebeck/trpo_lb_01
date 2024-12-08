@@ -110,7 +110,11 @@
         2:  105:    printf("\n");
         -:  106:}
         -:  107:
+<<<<<<< HEAD
         6:  108:bool isEmpty(const Stack* stack) {
+=======
+        6:  108:bool isEmpty(Stack* stack) {
+>>>>>>> main
         6:  109:    if (stack == NULL) return true;
         5:  110:    return stack->top == NULL;
         -:  111:}
