@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\trpo_lb_01\\trpo_lb_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:05_hw\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:05_hw\\CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stack.c",
+              "DocumentMoniker": "C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\stack.c",
+              "RelativeDocumentMoniker": "05_hw\\stack.c",
+              "ToolTip": "C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\stack.c",
+              "RelativeToolTip": "05_hw\\stack.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-08T14:23:17.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CMakeSettings.json",
+              "DocumentMoniker": "C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\CMakeSettings.json",
+              "RelativeDocumentMoniker": "05_hw\\CMakeSettings.json",
+              "ToolTip": "C:\\trpo_lb_01\\trpo_lb_01\\05_hw\\CMakeSettings.json",
+              "RelativeToolTip": "05_hw\\CMakeSettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T14:22:29.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
