@@ -78,6 +78,53 @@ void test_DestroyStack(void) {
     TEST_ASSERT_TRUE(isEmpty(&testStack));
 }
 
+// Тест: обработка NULL указателя в initStack
+void test_InitStackNull(void) {
+    initStack(NULL); // Просто проверяем, что программа не падает
+}
+
+// Тест: обработка NULL указателя в destroyStack
+void test_DestroyStackNull(void) {
+    destroyStack(NULL); // Просто проверяем, что программа не падает
+}
+
+// Тест: обработка NULL указателя в push
+void test_PushNullStack(void) {
+    TEST_ASSERT_FALSE(push(NULL, 42));
+}
+
+// Тест: обработка NULL указателя в pop
+void test_PopNullStack(void) {
+    int poppedValue = 0;
+    TEST_ASSERT_FALSE(pop(NULL, &poppedValue));
+}
+
+// Тест: обработка NULL указателя в searchByValue
+void test_SearchByValueNullStack(void) {
+    TEST_ASSERT_NULL(searchByValue(NULL, 42));
+}
+
+// Тест: обработка NULL указателя в searchByIndex
+void test_SearchByIndexNullStack(void) {
+    TEST_ASSERT_NULL(searchByIndex(NULL, 0));
+}
+
+// Тест: работа traverseStack
+void test_TraverseStack(void) {
+    // Пока traverseStack только выводит на экран, тестируем без падения
+    traverseStack(&testStack);
+
+    // Добавим элементы и проверим, что traverseStack отрабатывает корректно
+    push(&testStack, 1);
+    push(&testStack, 2);
+    traverseStack(&testStack); // Ожидается вывод: "Stack elements: 2 1"
+}
+
+// Тест: проверка isEmpty
+void test_IsEmptyNullStack(void) {
+    TEST_ASSERT_TRUE(isEmpty(NULL)); // NULL стек должен считаться пустым
+}
+
 int main(void) {
     UNITY_BEGIN();
     RUN_TEST(test_StackInitialization);
@@ -87,5 +134,13 @@ int main(void) {
     RUN_TEST(test_SearchByIndex);
     RUN_TEST(test_SearchByValue);
     RUN_TEST(test_DestroyStack);
+    RUN_TEST(test_InitStackNull);
+    RUN_TEST(test_DestroyStackNull);
+    RUN_TEST(test_PushNullStack);
+    RUN_TEST(test_PopNullStack);
+    RUN_TEST(test_SearchByValueNullStack);
+    RUN_TEST(test_SearchByIndexNullStack);
+    RUN_TEST(test_TraverseStack);
+    RUN_TEST(test_IsEmptyNullStack);
     return UNITY_END();
 }

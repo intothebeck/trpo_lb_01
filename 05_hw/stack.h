@@ -22,9 +22,9 @@ bool push(Stack* stack, int data);
 bool pop(Stack* stack, int* data);
 Node* searchByValue(Stack* stack, int value);
 Node* searchByIndex(Stack* stack, int index);
-Node* getTop(Stack* stack);
+Node* getTop(const Stack* stack);
 void traverseStack(Stack* stack);
-bool isEmpty(Stack* stack);
+bool isEmpty(const Stack* stack);
 
 #ifdef __cplusplus
 }
